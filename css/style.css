@@ -456,16 +456,21 @@ a:hover {
 	left:0;
 	top: 44px;
 	cursor: pointer;
+	
 }
+h4{
+ font-weight:lighter;
+}
+
 .logo-wrap a {
 	cursor: pointer;
 }
-.logo-wrap img{
+/* .logo-wrap img{
 	height:12px;
 	width:auto;
 	display:block;
 	cursor: pointer;
-}
+} */
 .cd-header {
 	position: absolute;
 	top: 0;
