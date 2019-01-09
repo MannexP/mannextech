@@ -298,13 +298,23 @@ a:hover {
 .color-grey {
 	color: #e1e1e1;
 }
-.img-wrap  {
+/* .img-wrap  {
 	position:relative;
 	width:100%;
 	display:block;
 }
 .img-wrap img {
 	width:100%;
+	height: auto;
+	display:block;
+} */
+.img-wrap  {
+	position:relative;
+	width:100vh;
+	display:block;
+}
+.img-wrap img {
+	width:100vh;
 	height: auto;
 	display:block;
 }
@@ -325,9 +335,11 @@ a:hover {
 }
 .container.z-bigger  {
 	z-index: 50;
+	
 }
 .z-too-big  {
 	z-index:11000;
+	
 }
 .padding-page-top {
 	padding-top: 250px;
@@ -1642,6 +1654,7 @@ figure.vimeo a img, figure.youtube a img {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	
 }
 .studio-list li {
 	position: relative;
@@ -2781,6 +2794,10 @@ figure.vimeo a img, figure.youtube a img {
 		font-size: 14px;
 	}
 }
+/* .aboutFix {
+	display:flex;
+	justify-content: center;
+} */
 
 
 
